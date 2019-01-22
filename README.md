@@ -199,6 +199,9 @@ Open the terminal inside your **Packer** folder
 Run **packer validate ubuntu16045.json** to validate if your template is valid
 Run **packer build ubuntu16045.json** to build the image using our template
 
+![alt text](https://github.com/jenriellegaon/packer-ubuntu-corda/blob/master/screenshots/snapshot.png)
+
+
 Wait until the everything is completed. A vagrant box file will be generated inside the **builds** folder in your **Packer** directory.
 
 ## Testing:
