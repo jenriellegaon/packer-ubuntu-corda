@@ -26,8 +26,8 @@ This is a sample directory structure:
 
 #### Step 1
 Create a json file named ubuntu16045.json and paste this inside your json file.
-<pre>
-{
+
+<pre>{
     "variables": {
       "version": "1"
     },
@@ -138,14 +138,12 @@ Create a json file named ubuntu16045.json and paste this inside your json file.
   }
 </pre>
 
-Save your file then exit.
+Save your file then exit
 
 #### Step 2
-
 Create a preseed.cfg file under the **http** folder then paste this inside your file.
 
-<pre>
-choose-mirror-bin mirror/http/proxy string
+<pre>choose-mirror-bin mirror/http/proxy string
 d-i base-installer/kernel/override-image string linux-server
 d-i clock-setup/utc boolean true
 d-i clock-setup/utc-auto boolean true
